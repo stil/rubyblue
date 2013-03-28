@@ -9,6 +9,14 @@ tmTheme is used by **Sublime Text** and **TextMate** editor. Currently supported
 * PHP
 * JavaScript
 
+##Recommended font settings
+Set in `Packages/User/Preferences.sublime-settings`
+```
+"font_face": "DejaVu Sans Mono",
+"font_size": 10
+```
+You can download DejaVu Fonts [here](http://dejavu-fonts.org/wiki/Download).
+
 ##Ruby Blue in action
 Screenshots from Sublime Text 2:
 
