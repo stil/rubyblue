@@ -15,3 +15,6 @@ Screenshots from Sublime Text 2:
 ![example](http://i.imgur.com/97TkZ37.png)
 ![example](http://i.imgur.com/KaKctwQ.png)
 ![example](http://i.imgur.com/TWIk2w8.png)
+
+##Development
+If you have found bugs or you want to add new languages, feel free to create pull request.
