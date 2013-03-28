@@ -8,6 +8,7 @@ tmTheme is used by **Sublime Text** and **TextMate** editor. Currently supported
 * XML
 * PHP
 * JavaScript
+* JSON
 
 ##Recommended font settings
 Set in `Packages/User/Preferences.sublime-settings`
