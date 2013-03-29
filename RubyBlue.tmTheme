@@ -257,7 +257,7 @@
 			<key>name</key>
 			<string>PHP: Entity</string>
 			<key>scope</key>
-			<string>entity.name.type.class.php, entity.other.inherited-class.php, entity.name.function.php, variable.other.property.php, meta.function-call.object.php, support.class.php, support.function.filestat.php, meta.function-call.static.php, support.function.array.php, support.function.string.php, support.function.php_date.php, support.function.builtin_functions.php, meta.function-call.php, support.function.microtime.php</string>
+			<string>entity.name.type.class.php, entity.other.inherited-class.php, entity.name.function.php, variable.other.property.php, meta.function-call.object.php, support.class.php, meta.function-call.static.php, support.function.(*).php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
