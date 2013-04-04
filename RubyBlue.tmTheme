@@ -70,7 +70,7 @@
 			<key>name</key>
 			<string>HTML</string>
 			<key>scope</key>
-			<string>text.html.basic, text.xml, meta.tag.inline.any.xml, meta.tag.inline.any.html, meta.tag.any.html</string>
+			<string>text.html.basic, text.xml, meta.tag.xml, meta.tag.structure.any.html, meta.tag.preprocessor.xml, meta.tag.inline.any.xml, meta.tag.inline.any.html, meta.tag.any.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -103,7 +103,7 @@
 			<key>name</key>
 			<string>XML/HTML: Tag Attribute Value</string>
 			<key>scope</key>
-			<string>string.quoted.(single|double).(xml|html)</string>
+			<string>meta.tag.sgml.doctype.xml, string.quoted.double.xml, string.quoted.single.xml, string.quoted.double.html, string.quoted.single.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -350,6 +350,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#7BD827</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Python: Strings</string>
+			<key>scope</key>
+			<string>string.quoted.single.single-line.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#F88047</string>
 			</dict>
 		</dict>
 	</array>
