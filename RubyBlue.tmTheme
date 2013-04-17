@@ -235,7 +235,7 @@
 			<key>name</key>
 			<string>PHP: Default</string>
 			<key>scope</key>
-			<string>source.php</string>
+			<string>source.php, source.php.embedded.line.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -246,7 +246,7 @@
 			<key>name</key>
 			<string>PHP: Keyword</string>
 			<key>scope</key>
-			<string>meta.include.php, storage.modifier.extends.php, storage.modifier.php, keyword.control.exception.php, keyword.control.php, keyword.other.new.php, storage.type.php, constant.other.class.php, support.function.construct.php, storage.modifier.implements.php, storage.type.(class|function).php</string>
+			<string>meta.include.php, storage.modifier.extends.php, storage.modifier.php, keyword.control.exception.php, keyword.control.php, keyword.other.new.php, storage.type.php, keyword.other.namespace.php, constant.other.class.php, support.function.construct.php, storage.modifier.implements.php, storage.type.(class|function).php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -257,7 +257,7 @@
 			<key>name</key>
 			<string>PHP: Entity</string>
 			<key>scope</key>
-			<string>entity.name.type.class.php, entity.other.inherited-class.php, entity.name.function.php, variable.other.property.php, meta.function-call.object.php, support.class.php, meta.function-call.static.php, constant.other.php, meta.function-call.php, support.class.implements.php, entity.name.type.interface.php, support.function.(*).php</string>
+			<string>entity.name.type.class.php, entity.other.inherited-class.php, entity.name.function.php, variable.other.property.php, meta.function-call.object.php, support.class.php, meta.function-call.static.php, constant.other.php, meta.function-call.php, support.class.implements.php, entity.name.type.interface.php, entity.name.type.namespace.php, storage.modifier.abstract.php, support.function.(*).php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -268,7 +268,7 @@
 			<key>name</key>
 			<string>PHP: String</string>
 			<key>scope</key>
-			<string>support.function.aggregate.sql, string.quoted.single.sql.php, keyword.operator.star.sql, string.regexp.single-quoted.php, storage.type.sql, string.quoted.(single|double).php</string>
+			<string>support.function.aggregate.sql, meta.string-contents.quoted.single.php, string.quoted.single.sql.php, keyword.operator.star.sql, string.regexp.single-quoted.php, storage.type.sql, string.quoted.single.php punctuation.definition.string.begin.php, string.quoted.single.php punctuation.definition.string.end.php, string.quoted.(single|double).php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -290,7 +290,7 @@
 			<key>name</key>
 			<string>PHP: Operator</string>
 			<key>scope</key>
-			<string>punctuation.terminator.expression.php, keyword.operator.(*).php,</string>
+			<string>punctuation.terminator.expression.php, punctuation.separator.inheritance.php, keyword.operator.(*).php,</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
