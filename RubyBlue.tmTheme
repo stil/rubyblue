@@ -125,7 +125,7 @@
 			<key>name</key>
 			<string>JS: Default</string>
 			<key>scope</key>
-			<string>source.js, source.js.embedded.html, support.function.js, support.function.dom.js, support.function.(*).js</string>
+			<string>source.js, source.js.embedded.html, support.function.js, support.function.dom.js, support.function.event-handler.js, support.function.(*).js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -136,7 +136,7 @@
 			<key>name</key>
 			<string>JS: Keyword</string>
 			<key>scope</key>
-			<string>storage.type.js, keyword.control.js, keyword.operator.new.js, storage.type.function.js, constant.language.boolean, constant.language.json, keyword.operator.js</string>
+			<string>storage.type.js, storage.modifier.js, keyword.control.js, keyword.operator.new.js, storage.type.function.js, constant.language.boolean, constant.language.json, constant.language.null.js, keyword.operator.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -147,7 +147,7 @@
 			<key>name</key>
 			<string>JS: Symbols</string>
 			<key>scope</key>
-			<string>keyword.operator.js, meta.delimiter.method.period.js, meta.delimiter.object.comma.js, punctuation.terminator.statement.js, meta.delimiter.object.comma.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.separator.dictionary.key-value.json, meta.structure.dictionary.json, meta.brace.(square|curly|round).js</string>
+			<string>keyword.operator.js, punctuation.terminator.statement.js, punctuation.section.scope.begin.js, punctuation.section.scope.end.js, meta.delimiter.method.period.js, meta.delimiter.object.comma.js, punctuation.terminator.statement.js, meta.delimiter.object.comma.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.separator.dictionary.key-value.json, meta.structure.dictionary.json, meta.brace.(square|curly|round).js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -246,7 +246,7 @@
 			<key>name</key>
 			<string>PHP: Keyword</string>
 			<key>scope</key>
-			<string>meta.include.php, storage.modifier.extends.php, storage.modifier.php, keyword.control.exception.php, keyword.control.php, keyword.other.new.php, storage.type.php, keyword.other.namespace.php, constant.other.class.php, support.function.construct.php, storage.modifier.implements.php, storage.type.(class|function).php</string>
+			<string>meta.include.php, storage.modifier.extends.php, storage.modifier.php, keyword.control.exception.php, keyword.control.php, keyword.other.new.php, keyword.operator.logical.php, storage.type.php, keyword.other.namespace.php, constant.other.class.php, support.function.construct.php, storage.modifier.implements.php, storage.type.(class|function).php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
