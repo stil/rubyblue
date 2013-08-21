@@ -70,7 +70,7 @@
 			<key>name</key>
 			<string>HTML</string>
 			<key>scope</key>
-			<string>text.html.basic, text.xml, meta.tag.xml, meta.tag.structure.any.html, meta.tag.preprocessor.xml, meta.tag.inline.any.xml, meta.tag.inline.any.html, meta.tag.any.html</string>
+			<string>text.html.basic, text.xml, meta.tag.inline.any.xml, meta.tag.inline.any.html, meta.tag.any.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -103,7 +103,8 @@
 			<key>name</key>
 			<string>XML/HTML: Tag Attribute Value</string>
 			<key>scope</key>
-			<string>meta.tag.sgml.doctype.xml, string.quoted.double.xml, string.quoted.single.xml, string.quoted.double.html, string.quoted.single.html</string>
+			<!-- string.quoted.(single|double).(xml|html) -->
+			<string>string.quoted.double.html, string.quoted.single.html, string.quoted.double.xml, string.quoted.single.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -125,7 +126,7 @@
 			<key>name</key>
 			<string>JS: Default</string>
 			<key>scope</key>
-			<string>source.js, source.js.embedded.html, support.function.js, support.function.dom.js, support.function.event-handler.js, support.function.(*).js</string>
+			<string>source.js, source.js.embedded.html, support.function.js, support.function.(*).js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -136,7 +137,7 @@
 			<key>name</key>
 			<string>JS: Keyword</string>
 			<key>scope</key>
-			<string>storage.type.js, storage.modifier.js, keyword.control.js, keyword.operator.new.js, storage.type.function.js, constant.language.boolean, constant.language.json, constant.language.null.js, keyword.operator.js</string>
+			<string>storage.type.js, storage.type.function.js, constant.language.boolean, constant.language.json, keyword.operator.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -147,7 +148,7 @@
 			<key>name</key>
 			<string>JS: Symbols</string>
 			<key>scope</key>
-			<string>keyword.operator.js, punctuation.terminator.statement.js, punctuation.section.scope.begin.js, punctuation.section.scope.end.js, meta.delimiter.method.period.js, meta.delimiter.object.comma.js, punctuation.terminator.statement.js, meta.delimiter.object.comma.js, punctuation.definition.parameters.begin.js, punctuation.definition.parameters.end.js, punctuation.separator.dictionary.key-value.json, meta.structure.dictionary.json, meta.brace.(square|curly|round).js</string>
+			<string>keyword.operator.js, meta.delimiter.method.period.js, meta.delimiter.object.comma.js, meta.brace.(square|curly|round).js, punctuation.terminator.statement.js, meta.delimiter.object.comma.js, punctuation.separator.dictionary.key-value.json, meta.structure.dictionary.json</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -158,11 +159,11 @@
 			<key>name</key>
 			<string>JS: String</string>
 			<key>scope</key>
-			<string>string.quoted.double.js, string.quoted.single.js, string.quoted.double.json</string>
+			<string>string.quoted.(double|single).(js|json)</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#F88047</string>
+				<string>#F08047</string>
 			</dict>
 		</dict>
 		<dict>
@@ -235,7 +236,7 @@
 			<key>name</key>
 			<string>PHP: Default</string>
 			<key>scope</key>
-			<string>source.php, source.php.embedded.line.html</string>
+			<string>source.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -246,7 +247,7 @@
 			<key>name</key>
 			<string>PHP: Keyword</string>
 			<key>scope</key>
-			<string>meta.include.php, storage.modifier.extends.php, storage.modifier.php, keyword.control.exception.php, keyword.control.php, keyword.other.new.php, keyword.operator.logical.php, storage.type.php, keyword.other.namespace.php, constant.other.class.php, support.function.construct.php, storage.modifier.implements.php, storage.type.(class|function).php</string>
+			<string>meta.include.php, keyword.control.exception.catch.php, keyword.other.namespace.php, keyword.other.use.php, keyword.operator.type.php, storage.modifier.abstract.php, storage.modifier.implements.php, storage.modifier.extends.php, storage.modifier.php, keyword.control.exception.php, keyword.control.php, keyword.other.new.php, storage.type.php, constant.other.class.php, support.function.construct.php, storage.type.(class|function).php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -257,7 +258,7 @@
 			<key>name</key>
 			<string>PHP: Entity</string>
 			<key>scope</key>
-			<string>entity.name.type.class.php, entity.other.inherited-class.php, entity.name.function.php, variable.other.property.php, meta.function-call.object.php, support.class.php, meta.function-call.static.php, constant.other.php, meta.function-call.php, support.class.implements.php, entity.name.type.interface.php, entity.name.type.namespace.php, storage.modifier.abstract.php, support.function.(*).php</string>
+			<string>entity.name.type.class.php, entity.name.type.namespace.php, support.other.namespace.php, support.other.namespace.use.php, support.constant.core.php, entity.name.type.interface.php, support.class.implements.php, entity.other.inherited-class.php, entity.name.function.php, variable.other.property.php, support.class.exception.php, support.class.builtin.php, meta.function-call.object.php, constant.other.php, support.class.php, meta.function-call.static.php, entity.name.namespace.php, support.namespace.php, support.function.(*).php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -268,7 +269,7 @@
 			<key>name</key>
 			<string>PHP: String</string>
 			<key>scope</key>
-			<string>support.function.aggregate.sql, meta.string-contents.quoted.single.php, string.quoted.single.sql.php, keyword.operator.star.sql, string.regexp.single-quoted.php, storage.type.sql, string.quoted.single.php punctuation.definition.string.begin.php, string.quoted.single.php punctuation.definition.string.end.php, string.quoted.(single|double).php</string>
+			<string>string.quoted.(single|double).php, string.quoted.single.sql.php, string.regexp.single-quoted.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -279,7 +280,7 @@
 			<key>name</key>
 			<string>PHP: Variable</string>
 			<key>scope</key>
-			<string>variable.other.php, variable.other.global.php, variable.other.global.safer.php</string>
+			<string>variable.other.global.php, variable.other.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -290,7 +291,7 @@
 			<key>name</key>
 			<string>PHP: Operator</string>
 			<key>scope</key>
-			<string>punctuation.terminator.expression.php, punctuation.separator.inheritance.php, keyword.operator.(*).php,</string>
+			<string>punctuation.separator.inheritance.php, keyword.operator.(*).php, punctuation.terminator.expression.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -312,59 +313,15 @@
 			<key>name</key>
 			<string>PHP: Constant</string>
 			<key>scope</key>
-			<string>constant.language.php, support.constant.core.php</string>
+			<string>constant.language.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#E6A82D</string>
 			</dict>
 		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python: Default</string>
-			<key>scope</key>
-			<string>source.python, entity.name.function.python, meta.function-call.python, support.function.builtin.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#8DB0D3</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python: Keyword</string>
-			<key>scope</key>
-			<string>keyword.control.import.python, keyword.control.import.from.python, keyword.control.flow.python, storage.type.function.python, keyword.operator.logical.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#FFFF80</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python: Symbols</string>
-			<key>scope</key>
-			<string>punctuation.definition.arguments.begin.python, punctuation.definition.arguments.end.python, keyword.operator.assignment.python, punctuation.definition.parameters.begin.python, punctuation.definition.parameters.end.python, punctuation.separator.parameters.python, keyword.operator.comparison.python, punctuation.separator.parameters.python, keyword.operator.arithmetic.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#7BD827</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Python: Strings</string>
-			<key>scope</key>
-			<string>string.quoted.single.single-line.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#F88047</string>
-			</dict>
-		</dict>
 	</array>
 	<key>uuid</key>
-	<string>0fc55850-9860-11e2-9e96-0800200c9a66</string>
+	<string>68DD7B60-826B-4250-8787-F757615C1987</string>
 </dict>
 </plist>
